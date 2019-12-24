@@ -5,9 +5,8 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "==5.3.2"
+fake-rpi = "==0.6.2"
+pytest-mock = "==1.13.0"
 
 [requires]
 python_version = "3.7"
-
-[packages]
-RPi.GPIO = "==0.7.0"

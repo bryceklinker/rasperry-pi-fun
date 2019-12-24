@@ -5,6 +5,7 @@ from simple_lights import start_lighting
 
 @pytest.fixture()
 def setup():
+
     time = FakeTime()
     gpio = FakeGPIO()
 
