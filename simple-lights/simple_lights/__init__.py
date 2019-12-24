@@ -13,3 +13,7 @@ def start_lighting(time=time, gpio=GPIO):
 
     print("LED off")
     gpio.output(18, GPIO.LOW)
+
+
+if __name__ == "__main__":
+    start_lighting()

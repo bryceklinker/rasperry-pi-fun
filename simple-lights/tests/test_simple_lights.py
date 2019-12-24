@@ -1,3 +1,5 @@
+from simple_lights import start_lighting
+
 
 def test_when_ran_then_pin_18_is_lit_up():
     time = FakeTime()
@@ -5,7 +7,8 @@ def test_when_ran_then_pin_18_is_lit_up():
 
     start_lighting(time, gpio)
 
-    
+
+
 
 class FakeTime:
     def sleep(time):
