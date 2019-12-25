@@ -12,4 +12,4 @@ pytest-mock = "==1.13.0"
 python_version = "3.7"
 
 [packages]
-rpi-gpio = "==0.7.0"
+gpiozero = "==1.5.1"
